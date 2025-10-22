@@ -17,6 +17,7 @@ jobs:
             ui: cli
           - build_type: RelWithDebInfo
             scripting: noscripts
+            
     steps:
     - uses: actions/checkout@v4
       with:
